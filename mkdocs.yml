@@ -26,3 +26,16 @@ plugins:
   - search
 nav:
   - Introduction: "index.md"
+  - Courses:
+    - Ci-Cd: "courses/cicd/cicd.md"
+    - Clouds: "courses/clouds/clouds.md"
+    - Databases: "courses/databases/databases.md"
+    - Networking: "courses/networking/networking.md"
+    - Virtualization: "courses/virtualization/virtualization.md"
+  - Draft courses:
+    - Ci-Cd: "draftcourses/cicd/cicd.md"
+    - Clouds: "draftcourses/clouds/clouds.md"
+    - Databases: "draftcourses/databases/databases.md"
+    - Networking: "draftcourses/networking/networking.md"
+    - Virtualization: "draftcourses/virtualization/virtualization.md"
+  - Additional materials: "additional-materials/materials.md"
