@@ -1,4 +1,9 @@
+# Образовательный проект MadOps Learning 
+
+[![Developed by Mad Devs](https://maddevs.io/badge-dark.svg)](https://maddevs.io?utm_source=github&utm_medium=madboiler)
+
 ## Описание репозитория
+Вы находитесь в репозитории образовательного проекта "MadOps Learning" реализующийся командой MadOps из компании [MadDevs](https://maddevs.io/). В данном репозитории мы постарались собрать наши внутренние знания о различных инструментах и технологиях и  поделиться ими с миром. 
 
 ## Обнаружение багов и предложения по улучшению
 
@@ -27,3 +32,13 @@
 3. Прежде чем править форматирование, убедитесь, что это действительно нужно.
 
 4. Пожалуйста, постарайтесь придерживаться преобладающего стиля оформления кода и разметки Markdown.
+
+## Локальное развертывание проекта
+### Развертывание проекта в Docker контейнере
+
+```
+git clone https://github.com/madopsio/workshop.git
+cd introduction-to-distributed-technologies
+docker pull squidfunk/mkdocs-material
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+```
