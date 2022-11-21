@@ -26,6 +26,7 @@ plugins:
   - search
 nav:
   - Introduction: "index.md"
+  - Prerequisites: "prerequisites/prerequisites.md"
   - Courses:
     - Ci-Cd: "courses/cicd/cicd.md"
     - Clouds: "courses/clouds/clouds.md"
